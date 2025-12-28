@@ -297,7 +297,7 @@ Hooks.on("renderWallConfig", (app, html, data) => {
 	</div>
 	
 	<div class="form-group">
-		<label>Locked Door Jingle Sound Level</label>
+		<label>Door Sound Radius</label>
 		<div class="form-fields">
 			<input type="range" name="flags.ambientdoors.doorData.soundRadius" value=${
         thisDoor.soundRadius
