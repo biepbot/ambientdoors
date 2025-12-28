@@ -27,7 +27,7 @@
       }
     }
   ],
-  "url": "https://github.com/EndlesNights/ambientdoors",
+  "url": "https://github.com/biepbot/ambientdoors",
   "manifest": "https://raw.githubusercontent.com/biepbot/ambientdoors/master/module.json",
   "download": "https://github.com/biepbot/ambientdoors/archive/2.3.4.zip"
 }
