@@ -5,13 +5,13 @@ const mod = "ambientdoors"; //mod scope & name
 //TODO
 //Change Play to play ambient sound, add range value. If global range, play sound as is.
 
-async function playSoundOnToken(token, sound, volume = 1.0, radius = 5) {
+async function playSoundOnToken(token, soundPath, volume = 1.0, radius = 5) {
   const sound = await AmbientSoundDocument.create(
     {
       x: token.x,
       y: token.y,
       radius,
-      path: sound,
+      path: soundPath,
       easing: false,
       volume,
       repeat: false,
